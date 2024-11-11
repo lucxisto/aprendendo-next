@@ -1,4 +1,9 @@
-const Header = (props: any) => {
+interface Props {
+    name: string;
+    surname: string;
+}
+
+const Header = (props: Props) => {
     const { name, surname } = props;
     return(
         <header className="flex justify-evenly items-center bg-zinc-300 font-bold h-[100px] py-20">

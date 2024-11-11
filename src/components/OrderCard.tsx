@@ -10,9 +10,12 @@ const OrderCard = (props: Props) => {
         <div className="flex flex-col items-center justify-evenly border-zinc-900 border-2 p-2 rounded">
             <h1>{customerName}</h1>
             <p>Valor Total: R$ {totalOrderValue}</p>
-            {   isPaid?  (
+            {   
+                isPaid?  (
                     <p>PAGO</p>
-                ) : (<p>PENDENTE</p>)
+                ):(
+                    <p>PENDENTE</p>
+                )
             }
             <button>Editar Pedido</button>
         </div>

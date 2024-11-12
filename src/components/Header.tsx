@@ -16,7 +16,7 @@ const Header = (props: Props) => {
             <div className="flex justify-evenly items-center">
                 <Link href={"/"}>HOME</Link>
                 <Link href={"/orders/orders"}>PEDIDOS</Link>
-                <h3>PEDIDOS</h3>
+                <Link href={"/stock/stock"}>ESTOQUE</Link>
                 
             </div>
         </header>

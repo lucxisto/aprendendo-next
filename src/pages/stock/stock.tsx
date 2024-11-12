@@ -1,10 +1,12 @@
 import Header from "@/components/Header";
+import { useRouter } from "next/router";
 
 const stock = () => {
+         
     return(
         <>
-            <Header name="" surname=""/>
-            <div>
+            <Header />
+            <div className="flex justify-evenly">
                 <div>
                     <h1>Coca-cola</h1>
                     <img src="https://placehold.co/100" alt="" />
